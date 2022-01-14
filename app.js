@@ -25,4 +25,5 @@ app.post('/', async (req, res) => {
   res.redirect('/')
 })
 
+console.log("Added after Container Creation")
 app.listen(port, () => console.log(`Server listening on port ${port}`))
